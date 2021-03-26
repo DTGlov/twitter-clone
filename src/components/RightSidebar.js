@@ -13,7 +13,7 @@ const RightSideBar = () => {
   
 //  console.log("fullname,username,userId", fullName, username, userId);
     return (
-      <div className="col-span-1  border-l border-gray-200 w-full hidden md:block">
+      <div className="col-span-1  border-l border-gray-200 h-screen w-full hidden md:block">
         <div className="mx-auto w-10/12 bg-gray-50 mt-8 border rounded-lg">
           <div className="flex justify-between items-center p-4">
             <h1 className="font-bold text-2xl ">Trends for you</h1>
