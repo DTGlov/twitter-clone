@@ -5,7 +5,7 @@
 
 ### Install
 
-> npm install
+```npm install```
 
 ### Usage
 > npm run build
