@@ -1,4 +1,4 @@
-import React, { useState,useContext } from 'react';
+import React, { useState,useContext,useEffect } from 'react';
 import FirebaseContext from '../context/firebase';
 import { formatDistance} from "date-fns";
 
@@ -7,7 +7,7 @@ const Tweets = () => {
   const { firebase } = useContext(FirebaseContext);
   
 
-    // useEffect(() => {
+    useEffect(() => {
          const getData = async () => {
            const result = await firebase.firestore().collection("posts").get();
            const posts = result.docs.map((post) => ({
@@ -18,7 +18,7 @@ const Tweets = () => {
          };
 
          getData();
-    // }, [firebase]);
+    });
      
     return (
       <div>
