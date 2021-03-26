@@ -53,11 +53,11 @@ const HomePage = () => {
             <div className="bg-blue-400 mt-6 border rounded-lg">
               <p className="p-2 text-white font-bold ">
                 Disclaimer: This is not the official Twitter Web App. It is a
-                redesign, built purely for educational purpose.
+                redesign, built purely for educational purposes.
               </p>
             </div>
             <div className="mt-16 text-center text-sm text-gray-500 font-bold">
-              <p> &copy; 2020 | Developed by DTGlover</p>
+              <p> &copy; 2021 | Developed by DTGlover</p>
             </div>
           </div>
         </div>
